@@ -1,1 +1,42 @@
+body{
+    background-color: powderblue;
+}
 
+#imageDisplayed{
+    width: 900px;
+    height: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+#prevButton{
+    left: 10px;
+}
+
+#nextButton{
+    right: 10px;
+}
+
+.navButton{
+    height: 97%;
+    width: 15%;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+
+    font-size: 45px;
+    background-color: darkSalmon;
+    color: white;
+    
+}
+
+.navButton:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+.navButton:focus{
+    outline: 0;
+}
