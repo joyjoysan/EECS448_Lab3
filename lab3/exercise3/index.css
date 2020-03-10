@@ -1,1 +1,64 @@
+#headerImg{
+    width: 15%;
+    height: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#naruto{
+    border-radius: 50%;
+    width: 10%;
+    height: 30%;
+}
+#narutoBox{
+    background-color: darkorange;
+    height: 600px;
+    width: 100%;
+}
+#narutoButton1{
+    height: 5%;
+    width: 15%;
+    position:absolute;
+    top: 20%;
+    left: 15%;
+
+    font-size: 80%;
+}
+
+#narutoButton2{
+    height: 5%;
+    width: 15%;
+    position:absolute;
+    top: 20%;
+    left: 35%;
+
+    font-size: 80%;
+}
+
+#narutoButton3{
+    height: 5%;
+    width: 15%;
+    position:absolute;
+    top: 20%;
+    left: 55%;
+
+    font-size: 80%;
+}
+
+.narutoInfoBox{
+    background-color: paleturquoise;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    left: 13%;
+    top: 26%;  
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display: none;
+}
 
