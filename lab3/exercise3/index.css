@@ -45,7 +45,48 @@
     font-size: 80%;
 }
 
-.narutoInfoBox{
+#narutoButton4{
+    height: 5%;
+    width: 15%;
+    position:absolute;
+    top: 20%;
+    left: 75%;
+
+    font-size: 80%;
+}
+
+#narutoBioBox{
+    background-color: paleturquoise;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    left: 13%;
+    top: 26%;  
+
+    font-size: 30px;
+}
+
+#narutoSkillBox{
+    background-color: paleturquoise;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    left: 13%;
+    top: 26%;  
+
+    font-size: 30px;
+}
+
+#narutoGalleryBox{
+    background-color: paleturquoise;
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    left: 13%;
+    top: 26%;  
+}
+
+#narutoVideoBox{
     background-color: paleturquoise;
     position: absolute;
     height: 60%;
@@ -62,3 +103,7 @@
     display: none;
 }
 
+.skillImages{
+    width: 15%;
+    height: 20%;
+}
