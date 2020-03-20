@@ -1,5 +1,4 @@
-//Author: Victorina Joy Santos
-//Filename: exercise2.js
+
 
 function next(){
     switch(document.getElementById("imageDisplayed").src){
