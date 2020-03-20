@@ -1,3 +1,9 @@
+body{
+    background-image: url("https://www.elsetge.cat/myimg/f/43-436793_naruto-pictures-wallpapers-minimalist-naruto-background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 #headerImg{
     width: 15%;
     height: 10%;
@@ -15,6 +21,17 @@
     height: 600px;
     width: 100%;
 }
+
+.button{
+    background-color: blanchedalmond;
+    outline:none;
+    border-radius: 25px;
+}
+
+.button:hover{
+    background-color: burlywood;
+}
+
 #narutoButton1{
     height: 5%;
     width: 15%;
@@ -63,7 +80,8 @@
     left: 13%;
     top: 26%;  
 
-    font-size: 30px;
+    font-size: 35px;
+    font-family: sans-serif;
 }
 
 #narutoSkillBox{
@@ -106,4 +124,26 @@
 .skillImages{
     width: 15%;
     height: 20%;
+}
+
+#disclaimer{
+    background-color: white;
+    width:450px;
+    font-weight: bold;
+}
+
+.galleryImages{
+    width: 30%;
+    height: 45%;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+#vidCaption{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
