@@ -1,27 +1,27 @@
-let text = document.getElementById("text");
+window.addEventListener('DOMContentLoaded', () => {
+    let target = document.getElementById("p1");
 
-function border(){
-    let borderRedVal = document.getElementById("borderRed").value;
-    let borderBlueVal = document.getElementById("borderBlue").value;
-    let borderGreenVal = document.getElementById("borderGreen").value;
-    let borderWidthVal = document.getElementById("borderWidth").value;
+    document.getElementById("borderButton").addEventListener("click", function(){
+        let bColor = document.getElementById("borderColor").value;
+        let bWidth = document.getElementById("borderWidth").value;
+       
+        target.style.borderColor = bColor;
+        target.style.borderWidth = bWidth;
+    });
 
-    console.log("test1");
 
-    if((borderRedVal >= 0 && borderRedVal < 256) &&
-       (borderBlueVal >= 0 && borderBlueVal < 256) &&
-       (borderGreenVal >= 0 && borderGreenVal < 256) &&
-       (borderWidthVal >= 0 && borderWidthVal < 101)){
-    
-        document.querySelector("#errorMessage").innerText = "YEET";
-    }
-    else{
-        document.querySelector("#errorMessage").innerText = "Error: Invalid border input(s).";
-    }
-}
+    document.getElementById("backgroundButton").addEventListener("click", function(){
+        let bgR = document.getElementById("backgroundRed").value;
+        let bgB = document.getElementById("backgroundBlue").value;
+        let bgG = document.getElementById("backgroundGreen").value;
 
-function background(){
-    let bgRedVal = document.getElementById("backgroundRed").value;
-    let bgBlueVal = document.getElementById("backgroundBlue").value;
-    let bgGreenVal = document.getElementById("backgroundGreen").value;
-}
+        if((bgR >= 0 && bgR < 256) &&
+        (bgB >= 0 && bgB < 256) &&
+        (bgG >= 0 && bgG < 256)){
+            target.style.backgroundColor = "rgb(" + bgR + "," + bgG + "," + bgB + ")";
+        }
+     else{
+         document.querySelector("#errorMessage").innerText = "Error: Invalid background rgb input(s).";
+     }
+    });
+});
