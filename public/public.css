@@ -1,1 +1,44 @@
+#myName{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height:  1%;
+}
+#profilePic{
+    height: 30%;
+    width: 60%;
 
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+#sideBar{
+    background-color: skyblue;
+    height: 100%;
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+}
+#edu{
+    line-height: 1.2;
+}
+.infoList{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2.5;
+}
+
+
+#barContent{
+    background-color: seashell;
+    height: 100%;
+    width: 60%;
+    float: right;
+    margin-right: 10%;
+}
+
+body{
+    background-color: slategray;
+}
